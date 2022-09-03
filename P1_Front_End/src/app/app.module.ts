@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ReservaComponent } from './reserva/reserva.component';
 import { FichaComponent } from './ficha/ficha.component';
 import { ServicioComponent } from './servicio/servicio.component';
+import { FichaClinicaComponent } from './ficha-clinica/ficha-clinica.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ReservaComponent,
     FichaComponent,
-    ServicioComponent
+    ServicioComponent,
+    FichaClinicaComponent
   ],
   imports: [
     BrowserModule,
