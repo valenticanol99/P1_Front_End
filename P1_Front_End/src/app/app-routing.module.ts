@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'reservas', component: ReservaComponent },
   { path: 'fichas', component: FichaComponent },
   { path: 'servicios', component: ServicioComponent },
-  { path: 'ficha-clinica', component: FichaClinicaComponent },
+  { path: 'fichas-clinicas', component: FichaClinicaComponent },
 ];
 
 @NgModule({
